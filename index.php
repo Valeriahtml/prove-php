@@ -10,7 +10,7 @@
    
     <?php
         //assegno un valore alla variabile
-           $testo = "ciao mondo"; 
+           $testo = "ciao mondo" ; 
 
         //stampo il contenuto della variabile
         echo $testo;
