@@ -13,15 +13,15 @@ include("library.php")
 <body>
 <?php
 function stampa_doppio_array($classi, $contenuti) {
-  if (count($classi) != count($contenuti)) {
-    echo "";
-    return;
-  }
-
-  // Crea un div per ogni elemento degli array
-  for ($i = 0; $i < count($classi); $i++) {
-    echo '<div class="' . $classi[$i] . '">' . $contenuti[$i] . '</div>';
-  }
+    if (count($classi) != count($contenuti)) {
+        echo "errore:gli arrey non hanno la stessa dimesione";
+    } 
+    else { 
+        // Crea un div per ogni elemento degli array
+        for ($i = 0; $i < count($classi); $i++) {
+            echo '<div class="' . $classi[$i] . '">' . $contenuti[$i] . '</div>';
+        }
+    }
 }
 ?>
 <?php
