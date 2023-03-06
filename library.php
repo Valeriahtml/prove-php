@@ -46,7 +46,14 @@ function ripeti ($numero, $testo) {
     echo "</p>";
 }
 
-
+function stampa_array($valori) {
+    //ciclo sugli elementi dell'array e creo un div per ogni elemento
+    for($i = 0; $i < count($valori); $i++ ){
+        echo "<div>";
+        echo $valori[$i];
+        echo "</div>";
+    }
+}
  
 
 
