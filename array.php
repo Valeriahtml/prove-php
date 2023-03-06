@@ -22,6 +22,8 @@ echo "posso stamparli tutti di fila " . $primo_array[0] . $primo_array[1] . $pri
 for ($i = 0; $i < count($primo_array);$i++){
     echo $primo_array[$i] . "";
 }
+
+
 ?>
 </body>
 </html>
