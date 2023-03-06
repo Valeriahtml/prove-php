@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<?php
+include("library.php");
+?>
 <body>
    
     <?php
@@ -31,7 +35,19 @@
         echo $testo;
 
         for($i=0; $i<10; $i =$i +1) {echo $testo; }
+        ?>
+
+
+        <?php
+
+crea_div("Ciao Mondo!", 20, "evidente", "alternata");
+    
+ripeti(30, "hey");
+
     ?>
     
+    
+
+
 </body>
 </html>

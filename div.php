@@ -10,6 +10,11 @@
     
 <?php
 
+include("library.php") 
+?>
+
+<?php
+
 $contenitore = "<div>contenuto<div> ";
 
 //stampo 10 volte il contenuto della variabile
@@ -50,6 +55,11 @@ echo "è" . $valore;
 
 ?>
 
+<?php
+
+stampa_div("container", "esempio php")
+
+?>
 
 </body>
 </html>
